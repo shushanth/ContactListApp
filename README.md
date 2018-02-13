@@ -1,6 +1,6 @@
 **Contact List**
 
-****Created using create react app**** .
+*Created using create react app* .
 
 ***Description***
 
