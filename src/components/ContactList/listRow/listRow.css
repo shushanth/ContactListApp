@@ -1,0 +1,12 @@
+.list-row {
+  align-items: center;
+  display: flex;
+  padding: .5rem 0;
+  border-bottom: 1px solid #e0e0e0;
+
+}
+
+.list-row:hover {
+  cursor: pointer;
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden; /* hidden intensionally for contact list*/
+  font-family: 'Open Sans', sans-serif;
+};
+
+
