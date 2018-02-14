@@ -13,4 +13,5 @@
 1. Structure the grid with proper columns components.
 2. Use HOC's wherever required.
 3. Incorporate SASS and UT's into the app.
+4. Incorporate proper filter search's 
 

@@ -7,7 +7,7 @@
 body {
   height: 100%;
   overflow-x: hidden;
-  overflow-y: hidden; /* hidden intensionally for contact list*/
+  overflow-y: hidden; /* hidden intensionally for contact list scroll*/
   font-family: 'Open Sans', sans-serif;
 };
 

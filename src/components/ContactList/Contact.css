@@ -9,10 +9,24 @@
   border: 1px solid floralwhite;
   display: flex;
   flex-direction: column;
-  padding: 2rem 0;
-  height: 50rem;
+  max-height: 50rem;
   overflow-y: auto;
   border-color: #e0e0e0;
+}
+
+.contact-filter {
+  display: -ms-flexbox;
+  flex: 1;
+  justify-content: center;
+  padding: 1rem .5rem;
+}
+
+.filter-input {
+  border: 1px solid darkgrey;
+  font-size: 1rem;
+  height: 3rem;
+  width: 100%;
+  
 }
 
 /*

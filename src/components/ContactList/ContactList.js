@@ -12,13 +12,22 @@ class ContactList extends Component {
   }
 
   static propTypes = {
-    lists: PropTypes.arrayOf(Object)
+    lists: PropTypes.arrayOf(Object),
+    onListFilter: PropTypes.func
   };
+
+  onFilter = (event) => {
+    this.props.onListFilter(event);
+  }
 
   render() {
     return(
       <section className="contact-container">
         <div className="contact-list-wrapper">
+          <div className="contact-filter">
+            <input className="filter-input" type="text" onChange={this.onFilter}/>
+          </div>  
+          <div className="contact-list">
           {
             this.props.lists.map((list, index) => {
               return (
@@ -91,6 +100,7 @@ class ContactList extends Component {
               )
             })
           }
+          </div>
         </div>
       </section>
     )

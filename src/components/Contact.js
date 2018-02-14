@@ -9,13 +9,21 @@ class Contact extends Component {
   }
 
   static propTypes = {
-    contacts : PropTypes.arrayOf(Object)
+    contacts : PropTypes.arrayOf(Object),
+    filterContacts: PropTypes.func
+  }
+
+  listFilterAction = (event) => {
+    this.props.filterContacts(event);
   }
 
   render() {
     return(
       <div>
-        <ContactList lists={ this.props.contacts }/>
+        <ContactList 
+          lists={ this.props.contacts }
+          onListFilter={this.listFilterAction}
+        />
       </div>
     )
   }
